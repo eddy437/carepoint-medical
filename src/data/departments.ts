@@ -1,0 +1,265 @@
+import { Department } from "../types/department";
+
+export const departments: Department[] = [
+  {
+    id: "cardiology",
+    name: "Cardiology",
+    icon: "HeartPulse",
+    image: "/images/departments/cardiology.jpg",
+    shortDescription:
+      "Comprehensive heart care from prevention to advanced intervention.",
+    description:
+      "Our Cardiology department combines advanced diagnostics with compassionate care to protect your heart health. From routine screenings to complex interventional procedures, our team is equipped to handle every stage of cardiovascular care.",
+    services: [
+      "Heart screening & risk assessment",
+      "Electrocardiogram (ECG)",
+      "Echocardiography",
+      "Cardiac consultation",
+      "Hypertension management",
+      "Stress testing",
+      "Holter monitoring",
+    ],
+    conditions: [
+      "Coronary artery disease",
+      "Heart failure",
+      "Arrhythmias",
+      "Hypertension",
+      "Valvular heart disease",
+      "High cholesterol",
+    ],
+    equipment: [
+      "Advanced echocardiography suites",
+      "Cardiac catheterization lab",
+      "Stress test equipment",
+      "24-hour Holter monitoring",
+    ],
+    specialists: ["Dr. Sarah Mitchell"],
+  },
+  {
+    id: "neurology",
+    name: "Neurology",
+    icon: "Brain",
+    image: "/images/departments/neurology.jpg",
+    shortDescription:
+      "Expert care for disorders of the brain, spine, and nervous system.",
+    description:
+      "The Neurology department provides comprehensive evaluation and treatment for neurological conditions. Our specialists use advanced imaging and diagnostic tools to deliver accurate diagnoses and personalized treatment plans.",
+    services: [
+      "Neurological consultation",
+      "EEG testing",
+      "Stroke evaluation & rehabilitation",
+      "Headache & migraine management",
+      "Movement disorder treatment",
+      "Memory & cognitive assessment",
+    ],
+    conditions: [
+      "Stroke",
+      "Epilepsy",
+      "Parkinson's disease",
+      "Multiple sclerosis",
+      "Migraine",
+      "Neuropathy",
+    ],
+    equipment: [
+      "High-resolution MRI",
+      "EEG monitoring systems",
+      "Nerve conduction studies",
+      "Transcranial Doppler",
+    ],
+    specialists: ["Dr. Daniel Carter"],
+  },
+  {
+    id: "orthopedics",
+    name: "Orthopedics",
+    icon: "Bone",
+    image: "/images/departments/orthopedics.jpg",
+    shortDescription:
+      "Advanced treatment for bones, joints, and musculoskeletal conditions.",
+    description:
+      "Our Orthopedics team specializes in the diagnosis and treatment of musculoskeletal injuries and conditions. From sports injuries to joint replacement, we help you get back to doing what you love.",
+    services: [
+      "Joint replacement surgery",
+      "Sports injury treatment",
+      "Fracture care",
+      "Arthroscopic surgery",
+      "Physical therapy coordination",
+      "Spine evaluation",
+    ],
+    conditions: [
+      "Osteoarthritis",
+      "Sports injuries",
+      "Fractures",
+      "Tendonitis",
+      "Back pain",
+      "Carpal tunnel syndrome",
+    ],
+    equipment: [
+      "Minimally invasive surgical suites",
+      "Digital X-ray",
+      "MRI & CT imaging",
+      "Arthroscopy equipment",
+    ],
+    specialists: ["Dr. Emily Rodriguez"],
+  },
+  {
+    id: "pediatrics",
+    name: "Pediatrics",
+    icon: "Baby",
+    image: "/images/facility.jpg",
+    shortDescription:
+      "Gentle, comprehensive healthcare for infants, children, and teens.",
+    description:
+      "Our Pediatrics department provides family-centered care in a warm and welcoming environment. We support your child's growth and development from infancy through adolescence with preventive care and treatment when needed.",
+    services: [
+      "Well-child visits",
+      "Immunizations",
+      "Sick visits",
+      "Developmental screenings",
+      "Adolescent health",
+      "Parent education",
+    ],
+    conditions: [
+      "Childhood infections",
+      "Asthma & allergies",
+      "Growth concerns",
+      "Behavioral issues",
+      "Obesity management",
+    ],
+    equipment: [
+      "Child-friendly exam rooms",
+      "Pediatric diagnostic tools",
+      "On-site lab services",
+    ],
+    specialists: ["Dr. James Okafor"],
+  },
+  {
+    id: "general-medicine",
+    name: "General Medicine",
+    icon: "Stethoscope",
+    image: "/images/facility.jpg",
+    shortDescription:
+      "Primary care for adults focusing on prevention and wellness.",
+    description:
+      "Our General Medicine department serves as your medical home. We provide comprehensive primary care for adults, emphasizing preventive medicine, chronic disease management, and coordination of specialty care.",
+    services: [
+      "Annual physicals",
+      "Preventive screenings",
+      "Chronic disease management",
+      "Medication management",
+      "Health risk assessments",
+      "Referral coordination",
+    ],
+    conditions: [
+      "Diabetes",
+      "Hypertension",
+      "High cholesterol",
+      "Thyroid disorders",
+      "Arthritis",
+      "Respiratory conditions",
+    ],
+    equipment: [
+      "On-site laboratory",
+      "ECG equipment",
+      "Spirometry",
+      "Point-of-care testing",
+    ],
+    specialists: ["Dr. Priya Sharma"],
+  },
+  {
+    id: "womens-health",
+    name: "Women's Health",
+    icon: "Heart",
+    image: "/images/facility.jpg",
+    shortDescription:
+      "Comprehensive care for women at every stage of life.",
+    description:
+      "Our Women's Health department provides compassionate, comprehensive care for women through all phases of life. From routine gynecological care to pregnancy and menopause management, our team is dedicated to your wellbeing.",
+    services: [
+      "Annual gynecological exams",
+      "Prenatal care",
+      "Family planning",
+      "Menopause management",
+      "Breast health screenings",
+      "Osteoporosis prevention",
+    ],
+    conditions: [
+      "Menstrual disorders",
+      "PCOS",
+      "Endometriosis",
+      "Pregnancy",
+      "Menopause symptoms",
+    ],
+    equipment: [
+      "Advanced ultrasound",
+      "Digital mammography",
+      "Bone density scanning",
+    ],
+    specialists: ["Dr. Laura Bennett"],
+  },
+  {
+    id: "dermatology",
+    name: "Dermatology",
+    icon: "Sparkles",
+    image: "/images/facility.jpg",
+    shortDescription:
+      "Medical and cosmetic care for skin, hair, and nails.",
+    description:
+      "Our Dermatology department offers expert medical and cosmetic skin care. From skin cancer screening to acne treatment and aesthetic procedures, we help you maintain healthy, vibrant skin.",
+    services: [
+      "Skin cancer screening",
+      "Acne treatment",
+      "Eczema & psoriasis care",
+      "Mole removal",
+      "Cosmetic dermatology",
+      "Hair loss evaluation",
+    ],
+    conditions: [
+      "Skin cancer",
+      "Acne",
+      "Eczema",
+      "Psoriasis",
+      "Rosacea",
+      "Hair loss",
+    ],
+    equipment: [
+      "Dermoscopy",
+      "Phototherapy equipment",
+      "Laser systems",
+      "Cryotherapy",
+    ],
+    specialists: ["Dr. Ahmed Hassan"],
+  },
+  {
+    id: "gastroenterology",
+    name: "Gastroenterology",
+    icon: "Activity",
+    image: "/images/facility.jpg",
+    shortDescription:
+      "Digestive health specialists for the full GI system.",
+    description:
+      "Our Gastroenterology department provides comprehensive care for digestive disorders. Our specialists use advanced endoscopic techniques to diagnose and treat conditions affecting the esophagus, stomach, intestines, liver, and pancreas.",
+    services: [
+      "Upper endoscopy",
+      "Colonoscopy",
+      "Liver function assessment",
+      "IBD management",
+      "GERD treatment",
+      "Colorectal cancer screening",
+    ],
+    conditions: [
+      "Crohn's disease",
+      "Ulcerative colitis",
+      "GERD",
+      "Irritable bowel syndrome",
+      "Celiac disease",
+      "Liver disease",
+    ],
+    equipment: [
+      "Video endoscopy systems",
+      "Colonoscopy suites",
+      "Liver elastography",
+      "Capsule endoscopy",
+    ],
+    specialists: ["Dr. Michael Chen"],
+  },
+];
